@@ -1,0 +1,30 @@
+//div ul{height:50%; width:25%;}
+//div ul{overflow:hidden; overflow-y:scroll;-webkit-overflow-scrolling: touch;}
+
+
+
+.list * {box-sizing: border-box;}
+
+
+.list ul {
+  position: absolute;
+  width: 25%;
+  height: 90%;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  
+  border: 2px solid #ccc;
+  
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  
+  -webkit-overflow-scrolling: touch;
+}
+
+.list li {
+  padding: 10px 20px;
+  
+  border-bottom: 1px solid #ccc;
+  
+}
